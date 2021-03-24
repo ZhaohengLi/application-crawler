@@ -25,7 +25,7 @@ class Application:
             print("No root page")
             return None
         else:
-            return self.graph.getPath(self.root_page.name, tail)
+            return self.graph.get_path(self.root_page.name, tail)
 
 
 application = Application("APP")  # 我的理解Application应该是单例的

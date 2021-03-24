@@ -36,58 +36,58 @@ class Node:
         return self.neighbors[neighbor]
 
 
-class Queue:
-    def __init__(self):  # 初始化
-        self.holder = []
-
-    def enqueue(self, val):  # 将元素push入队列
-        """
-        :param val: 元素
-        """
-        self.holder.append(val)
-
-    def dequeue(self):  # 从队首弹出一个元素
-        """
-        :return: 队列为空则None 否则为元素
-        """
-        if len(self.holder) == 0:
-            return None
-        val = self.holder[0]
-        if len(self.holder) == 1:
-            self.holder = []
-        else:
-            self.holder = self.holder[1:]
-        return val
-
-    def empty(self):  # 队列是否为空
-        """
-        :return: Boolean
-        """
-        if len(self.holder) == 0:
-            return True
-        return False
+# class Queue:
+#     def __init__(self):  # 初始化
+#         self.holder = []
+#
+#     def enqueue(self, val):  # 将元素push入队列
+#         """
+#         :param val: 元素
+#         """
+#         self.holder.append(val)
+#
+#     def dequeue(self):  # 从队首弹出一个元素
+#         """
+#         :return: 队列为空则None 否则为元素
+#         """
+#         if len(self.holder) == 0:
+#             return None
+#         val = self.holder[0]
+#         if len(self.holder) == 1:
+#             self.holder = []
+#         else:
+#             self.holder = self.holder[1:]
+#         return val
+#
+#     def empty(self):  # 队列是否为空
+#         """
+#         :return: Boolean
+#         """
+#         if len(self.holder) == 0:
+#             return True
+#         return False
 
 
 class Graph:
     def __init__(self):  # 初始化
-        self.nodeList = {}
-        self.nodeNum = 0
+        self.node_list = {}
+        self.node_num = 0
 
     def add_node(self, page):  # 添加节点
         """
         :param page: Page
         """
         new_node = Node(page)
-        self.nodeList[page.id] = new_node
-        self.nodeNum += 1
+        self.node_list[page.id] = new_node
+        self.node_num += 1
 
     def get_node(self, page_id):  # 获取节点
         """
         :param page_id: String
         :return: 节点在图中则为Node 否则None
         """
-        if page_id in self.nodeList:
-            return self.nodeList[page_id]
+        if page_id in self.node_list:
+            return self.node_list[page_id]
         else:
             return None
 
@@ -98,29 +98,23 @@ class Graph:
         :param edge_type: String
         :return: Boolean
         """
-        if (head not in self.nodeList) or (tail not in self.nodeList):
+        if (head not in self.node_list) or (tail not in self.node_list):
             return False
-        self.nodeList[head].addNeighbor(tail, edge_type)
+        self.node_list[head].add_neighbor(tail, edge_type)
         return True
 
-    def getPath(self, head, tail):  # 获取两点之间路径
-        pass
-        # if (head not in self.nodeList) or (tail not in self.nodeList):
-        #     return None
-        # queue = Queue()
-        # tmp_path = [head]
-        # queue.enqueue(tmp_path)
-        # if head == tail:
-        #     queue.enqueue([head])
-        #     return queue
-        #
-        # while not queue.empty():
-        #     tmp_path = queue.dequeue()
-        #     last_node = tmp_path[len(tmp_path) - 1]
-        #     if last_node == tail:
-        #         print("VALID_PATH : ", tmp_path)
-        #     for link_node in self.nodeList[last_node]:
-        #         if link_node not in tmp_path:
-        #             new_path = tmp_path + [link_node]
-        #             queue.enqueue(new_path)
-        # return queue
+    def get_path(self, head, tail, path=None):  # 获取两点之间路径
+        if path is None:
+            path = []
+        path = path + [head]
+        if head == tail:
+            return path
+
+        res_path = []
+        for node in self.node_list[head].get_neighbors():
+            if node not in path:
+                new_path = self.get_path(node, tail, path)
+                if new_path:
+                    if not res_path or len(new_path) < len(res_path):
+                        res_path = new_path
+        return res_path
