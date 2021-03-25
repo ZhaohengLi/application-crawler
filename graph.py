@@ -91,7 +91,7 @@ class Graph:
         else:
             return None
 
-    def add_edge(self, head, tail, edge_type="click"):  # 添加边
+    def add_edge(self, head, tail, edge_type="unknown"):  # 添加边
         """
         :param head: String
         :param tail: String
