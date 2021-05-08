@@ -2,9 +2,13 @@ import logging
 
 from config import CRAWLER_LOG_FILE_PATH
 from crawler import Crawler
+from device import Device
+from path import Path
 
 package = "com.tencent.mm"
 root_activity = "com.tencent.mm.ui.LauncherUI"
+guide_directory = ""
+device_serial = ""
 
 logging.basicConfig(level=logging.DEBUG,
                     filename=CRAWLER_LOG_FILE_PATH,
@@ -13,5 +17,10 @@ logging.basicConfig(level=logging.DEBUG,
 
 if __name__ == "__main__":
     logging.info("Program started.")
-    crawler = Crawler(package, root_activity)
-    crawler.start()
+
+    device = Device(device_serial)
+    crawler = Crawler(package, root_activity, device)
+
+    guide_path = Path()
+    guide_path.load(guide_directory)
+    crawler.follow_guide_path(guide_path)

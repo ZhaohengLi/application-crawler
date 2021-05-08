@@ -1,27 +1,41 @@
-import time
 import logging
 
-import utility
+from path import Path
+from page import Page
 from device import Device
-from config import ADB_PATH
+
+from identifier import identifier_instance
 
 
 class Crawler:
-    def __init__(self, package: str, root_activity: str):
+    def __init__(self, package: str, root_activity: str, device: Device):
         self.package = package
         self.root_activity = root_activity
-        self.device = Device()
+        self.device = device
 
-    def start(self):
+    def start(self) -> None:
         logging.info("Crawler started.")
         self.go_to_root()
-        self.save_layout()
+        self.print_layout()
 
-    def go_to_root(self):
-        utility.run_subprocess("{} shell am force-stop {}".format(ADB_PATH, self.package))
-        utility.run_subprocess("{} shell am start -n {}/{} -W".format(ADB_PATH, self.package, self.root_activity))
-        time.sleep(2)
+    def go_to_root(self) -> None:
+        self.device.stop_activity(self.package)
+        self.device.start_activity(self.package, self.root_activity)
 
-    def save_layout(self):
+    def print_layout(self) -> None:
         layout = self.device.dump_layout()
         print(layout)
+
+    def follow_guide_path(self, guide_path: Path) -> None:
+        logging.info("Follow guide path.")
+        self.go_to_root()
+        guide_origin_page = guide_path.get_origin_page()
+        current_origin_page = self.device.dump_layout()
+        if not identifier_instance.is_the_same_page(guide_origin_page, current_origin_page):
+            logging.error("Origin page is not the same.")
+            return
+        before_page = guide_origin_page
+        after_page = Page()
+        for action in guide_path.action_list:
+            # todo
+            pass
