@@ -3,15 +3,15 @@ import logging
 from path import Path
 from page import Page
 from device import Device
-
-from identifier import identifier_instance
-
+import identifier
 
 class Crawler:
-    def __init__(self, package: str, root_activity: str, device: Device):
+    def __init__(self, package: str, root_activity: str, device: Device, strings_path, cluster_dir):
         self.package = package
         self.root_activity = root_activity
         self.device = device
+
+        self.identifier_instance = identifier.Identifier(strings_path, cluster_dir)
 
     def start(self) -> None:
         logging.info("Crawler started.")
@@ -31,7 +31,8 @@ class Crawler:
         self.go_to_root()
         guide_origin_page = guide_path.get_origin_page()
         current_origin_page = self.device.dump_layout()
-        if not identifier_instance.is_the_same_page(guide_origin_page, current_origin_page):
+        
+        if not self.identifier_instance.is_the_same_page(guide_origin_page, current_origin_page):
             logging.error("Origin page is not the same.")
             return
         before_page = guide_origin_page

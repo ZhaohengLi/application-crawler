@@ -9,6 +9,8 @@ package = "com.tencent.mm"
 root_activity = "com.tencent.mm.ui.LauncherUI"
 guide_directory = ""
 device_serial = ""
+strings_path = ""
+cluster_dir = ""
 
 logging.basicConfig(level=logging.DEBUG,
                     filename=CRAWLER_LOG_FILE_PATH,
@@ -19,7 +21,7 @@ if __name__ == "__main__":
     logging.info("Program started.")
 
     device = Device(device_serial)
-    crawler = Crawler(package, root_activity, device)
+    crawler = Crawler(package, root_activity, device, strings_path, cluster_dir)
 
     guide_path = Path()
     guide_path.load(guide_directory)
