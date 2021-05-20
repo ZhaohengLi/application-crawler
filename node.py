@@ -13,7 +13,7 @@ class Node:
         self.content = content
         self.parent = parent
         if self.parent is not None:
-            self.absolute_id = self.parent.absolute_id + '|' + self.content['@index'] + ';' + self.content['@class']
+            self.absolute_id = self.parent.absolute_id + '|' + str(self.content['@index']) + ';' + self.content['@class']
         else:
             self.absolute_id =  self.content['@class']
     

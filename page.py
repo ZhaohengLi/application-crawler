@@ -16,9 +16,39 @@ class Page:
             self.content = json.load(file)
             self.file_path = file_path
         
-        # 现在仅仅返回一个窗口的数据
+        # 现在如果是uiAutomationServer仅仅返回一个窗口的数据
+        # 如果是从文件中读取的话，就会多一层信息
+        example_node = self.content[0] if isinstance(self.content, list) else self.content
+        fake_root = {
+            "@index": 0,
+            "@class": "fake.root",
+            "@package": example_node["@package"],
+            "@content-desc": "",
+            "@checkable": False, 
+            "@checked": False,
+            "@clickable": False,
+            "@enabled": True, 
+            "@focusable": False,
+            "@focused": False,
+            "@scrollable": False,
+            "@long-clickable": False,
+            "@password": False,
+            "@selected": False,
+            "@editable": False,
+            "@accessibilityFocused": False,
+            "@dismissable": False,
+            "@drawingOrder": 0,
+            "@bounds": example_node["@bounds"],
+            "@screenBounds": example_node["@screenBounds"],
+            "node": []
+        }
+
+        if isinstance(self.content, list):
+            fake_root["node"].extend(self.content)
+        else:
+            fake_root["node"].append(self.content)
         q = Queue()
-        q.put((None, self.content))
+        q.put((None, fake_root))
         while not q.empty():
             queue_top = q.get()
             parent_node = queue_top[0] # type: Node

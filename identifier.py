@@ -55,5 +55,11 @@ class Identifier:
 if __name__ == "__main__":
     strings_path = os.path.abspath("./strings/wechat_strings.txt")
     cluster_dir = os.path.abspath("./data/wechat001")
+    identifier = Identifier(strings_path, cluster_dir)
+
+    page_1 = Page(0)
+    page_1.load("./data/wechat001/3/1610937568512_dst_layout.xml")
+    idx = identifier.get_page_cluster_index_from_page(page_1)
+    print(idx)
 
 
