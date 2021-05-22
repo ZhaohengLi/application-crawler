@@ -1,4 +1,8 @@
 import json
+from logging import NullHandler
+import logging
+from node import Node
+import typing
 from page import Page
 
 
@@ -6,22 +10,28 @@ class Action:
     def __init__(self, index: int = -1):
         self.index = index
         self.content = dict()
-        self.page = Page()
-
-    def write(self, content: dict, page: Page) -> None:
-        self.content = content
-        self.page = page
+        self.src_page = None  # type: Page
+        self.dst_page = None  # type: Page
+        self.action_node = None
 
     def load(self, file_path: str) -> None:
         with open(file_path) as file:
-            self.content = json.load(file)
+            self.content = json.load(file)[0]
+        if self.src_page is not None:
+            absolute_id = self.content['targetNodeId']
+            self.action_node = self.src_page.get_node_by_id(absolute_id)
+            if self.action_node is None:
+                logging.warning("Action node not found")
 
-    def add_page(self, page: Page) -> None:
-        self.page = page
+    def add_page(self, pages: typing.Tuple[Page]) -> None:
+        self.src_page = pages[0]
+        self.dst_page = pages[1]
+        if self.content is not None:
+            absolute_id = self.content['targetNodeId']
+            self.action_node = self.src_page.get_node_by_id(absolute_id)
+            if self.action_node is None:
+                logging.warning("Action node not found")
 
     def dump(self) -> dict:
         return self.content
 
-    def get_target_node(self, page):
-        # todo
-        pass

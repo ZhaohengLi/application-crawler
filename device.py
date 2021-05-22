@@ -1,6 +1,8 @@
+from os.path import split
 import socket
 import logging
 import time
+import node
 
 from config import *
 import utility
@@ -54,5 +56,44 @@ class Device:
             logging.error("Dump layout\n{}".format(msg))
             return ""
             
-
+    def click(self, n: node.Node):
+        absolute_id = n.absolute_id
+        self.socket.send("ACTION-CLICK#{}\n".format(absolute_id).encode(TERMINAL_ENCODING))
+        msg = self.socket.makefile(encoding=TERMINAL_ENCODING).readline()
+        split_res = msg.split('#')
+        if len(split_res) != 2 or split_res[0] != "RES-CLICK":
+            logging.warning('Invalid response {}'.format(msg))
+            return False
+        if split_res[1] != "Success":
+            logging.warning('Click failed {}'.format(msg))
+            return False
+        return True
+    
+    def clear_text(self, n: node.Node):
+        absolute_id = n.absolute_id
+        self.socket.send("ACTION-CLEAR_TEXT#{}\n".format(absolute_id).encode(TERMINAL_ENCODING))
+        msg = self.socket.makefile(encoding=TERMINAL_ENCODING).readline()
+        split_res = msg.split('#')
+        if len(split_res) != 2 or split_res[0] != "RES-CLEAR_TEXT":
+            logging.warning('Invalid response {}'.format(msg))
+            return False
+        if split_res[1] != "Success":
+            logging.warning('Clear text failed {}'.format(msg))
+            return False
+        return True
+    
+    def enter_text(self, n: node.Node, text: str):
+        if text is None or len(text) == 0:
+            return self.clear_text(n)
+        absolute_id = n.absolute_id
+        self.socket.send("ACTION-ENTER_TEXT#{}#{}\n".format(absolute_id, text).encode(TERMINAL_ENCODING))
+        msg = self.socket.makefile(encoding=TERMINAL_ENCODING).readline()
+        split_res = msg.split('#')
+        if len(split_res) != 2 or split_res[0] != "RES-ENTER_TEXT":
+            logging.warning('Invalid response {}'.format(msg))
+            return False
+        if split_res[1] != "Success":
+            logging.warning('Clear text failed {}'.format(msg))
+            return False
+        return True
 

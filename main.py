@@ -9,8 +9,8 @@ package = "com.tencent.mm"
 root_activity = "com.tencent.mm.ui.LauncherUI"
 guide_directory = ""
 device_serial = ""
-strings_path = ""
-cluster_dir = ""
+strings_path = "" # os.path.abspath("./strings/wechat_strings.txt")
+cluster_dir = "" # os.path.abspath("./data/wechat001")
 
 logging.basicConfig(level=logging.DEBUG,
                     filename=CRAWLER_LOG_FILE_PATH,

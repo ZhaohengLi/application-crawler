@@ -1,6 +1,7 @@
 import os
 import re
 import json
+import typing
 
 from page import Page
 from action import Action
@@ -10,8 +11,7 @@ class Path:
     def __init__(self):
         self.origin_page = Page()
 
-        self.action_list = list()
-        self.page_list = list()
+        self.action_list = list() # type: typing.List[Action]
 
     def load(self, directory: str) -> None:
         file_list = os.listdir(directory) if os.path.exists(directory) and os.path.isdir(directory) else list()
@@ -29,11 +29,10 @@ class Path:
 
                 after_page = Page()
                 after_page.load(os.path.join(directory, "{}_dst_layout.json".format(timestamp)))
-                self.page_list.append(after_page)
 
                 action = Action()
                 action.load(os.path.join(directory, "{}_actions.json".format(timestamp)))
-                action.add_page(before_page)
+                action.add_page((before_page, after_page))
                 self.action_list.append(action)
 
     def dump(self) -> dict:
