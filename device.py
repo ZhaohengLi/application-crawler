@@ -23,7 +23,7 @@ class Device:
 
     def connect(self) -> None:
         utility.set_port_forward()
-        socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        self.socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         self.socket.connect(("localhost", PC_PORT))
         logging.info("Device connected.")
 
@@ -35,13 +35,24 @@ class Device:
         time.sleep(2)
 
     def dump_layout(self) -> str:
-        self.socket.send("DUMP_LAYOUT\n".encode(TERMINAL_ENCODING))
+        self.socket.send("DUMP_LAYOUT_JSON\n".encode(TERMINAL_ENCODING))
         msg = self.socket.makefile(encoding=TERMINAL_ENCODING).readline()
-        result = msg.split("#")
-        if len(result) == 3 and result[0] == "RES-DUMP_LAYOUT" and result[1] == Device.RES_SUCCESS:
-            return result[2]
-        else:
+        try:
+            # handle '#' in content
+            response_id_sep_idx = msg.index("#")
+            response_id = msg[0: response_id_sep_idx]
+            remain = msg[response_id_sep_idx + 1:]
+            if response_id != "RES-DUMP_LAYOUT":
+                raise ValueError()
+            state_sep_idx = remain.index("#")
+            state = remain[0: state_sep_idx]
+            remain2 = remain[state_sep_idx + 1:]
+            if state != Device.RES_SUCCESS:
+                raise ValueError()
+            return remain2
+        except ValueError:
             logging.error("Dump layout\n{}".format(msg))
             return ""
+            
 
 
