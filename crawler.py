@@ -44,7 +44,7 @@ class Crawler:
             # 先找节点，看看节点是否已经包含
             action_node = action.action_node
             result_nodes = self.identifier_instance.get_the_same_node(page_a=action.src_page, node_a=action_node, page_b=current_page)
-            if len(result_nodes is None):
+            if result_nodes is None or len(result_nodes) == 0:
                 logging.error("Node not found! Action content: {}".format(json.dumps(action.dump())))
                 return False
             
@@ -73,7 +73,7 @@ class Crawler:
 
             # 检查到达的页面是不是预期的页面
             
-            start_time = time.time()  # in ms
+            start_time = time.time()  # in s
             WAITINT_LOADED = 5 # 超时时间
             to_dst_page = False
             while time.time() - start_time <= WAITINT_LOADED:
