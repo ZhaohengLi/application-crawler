@@ -1,0 +1,2 @@
+O= 1 com.tencent.mm android.widget.TextView null [379,387][701,449] 请输入支付密码 null clickable=0 scrollable=0 editable=0 visible=1
+

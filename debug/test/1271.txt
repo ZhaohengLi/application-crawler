@@ -1,0 +1,2 @@
+O= 2 com.tencent.mm android.widget.ImageView com.tencent.mm:id/fjz [1009,1344][1080,1463] null 绝望小人 clickable=0 scrollable=0 editable=0 visible=1
+

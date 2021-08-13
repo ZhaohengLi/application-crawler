@@ -1,0 +1,2 @@
+O= 5 com.tencent.mm android.widget.Button com.tencent.mm:id/tenpay_keyboard_6 [720,1743][1079,1897] 6 6 clickable=1 scrollable=0 editable=0 visible=1
+

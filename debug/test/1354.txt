@@ -1,0 +1,2 @@
+O= 1 com.tencent.mm android.widget.TextView com.tencent.mm:id/anf [464,498][646,560] Gigi 邹琪 null clickable=0 scrollable=0 editable=0 visible=1
+

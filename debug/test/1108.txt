@@ -1,0 +1,4 @@
+O= 1 com.tencent.mm android.widget.LinearLayout null [43,1507][1037,1603] null null clickable=1 scrollable=0 editable=0 visible=1
+	O= 2 com.tencent.mm android.widget.LinearLayout com.tencent.mm:id/bkd [1037,1529][1037,1529] null null clickable=1 scrollable=0 editable=0 visible=0
+	O= 1 com.tencent.mm android.widget.TextView com.tencent.mm:id/bkg [43,1529][1037,1581] 最近使用 null clickable=0 scrollable=0 editable=0 visible=1
+

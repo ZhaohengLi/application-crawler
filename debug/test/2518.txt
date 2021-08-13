@@ -1,0 +1,3 @@
+O= 7 com.tencent.mm android.widget.RelativeLayout com.tencent.mm:id/aos [694,1789][910,1899] null null clickable=1 scrollable=0 editable=0 visible=1
+	O= 2 com.tencent.mm android.view.View com.tencent.mm:id/aot [694,1789][910,1899] null  clickable=0 scrollable=0 editable=0 visible=1
+

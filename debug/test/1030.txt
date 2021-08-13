@@ -1,0 +1,2 @@
+O= 1 com.tencent.mm android.widget.EditText com.tencent.mm:id/iy1 [130,1193][842,1301] null null clickable=1 scrollable=0 editable=1 visible=1
+

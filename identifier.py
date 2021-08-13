@@ -96,11 +96,15 @@ class Identifier:
 
 
 if __name__ == "__main__":
+    device = Device("")
+    while True:
+        crt_page = Page(0)
+        crt_page.load_from_device(device)
     page_1 = Page(0)
     # page_1.load("./data/wechat001/3/1610937568512_dst_layout.xml")
-    page_1.load("./data/wechat_red_packet/1614315712494_src_layout.json")
+    page_1.load("./data/wechat_red_packet/1614315716354_src_layout.json")
     # interested_node = page_1.get_node_by_cond(lambda node: '@text' in node.content and node.content['@text'] == "通讯录")
-    with open("./data/wechat_red_packet/1614315712494_actions.json", 'r') as f:
+    with open("./data/wechat_red_packet/1614315716354_actions.json", 'r') as f:
         action_content = json.load(f)[0]
     interested_node = page_1.get_node_by_id(action_content['targetNodeId'])
     
@@ -109,7 +113,14 @@ if __name__ == "__main__":
     identifier = Identifier(strings_path, cluster_dir)
     idx = identifier.get_page_cluster_index_from_page(page_1)
     print(idx)
-
+    # crt_page = Page(0)
+    # crt_page.load("./tmp.json")
+    # crt_page_cluster = identifier.get_page_cluster_pointer(crt_page)
+    # idx = identifier.get_page_cluster_index_from_page(crt_page)
+    #
+    # node_list = identifier.get_the_same_node(page_1, interested_node, crt_page)
+    # for n in node_list:
+    #     logging.info("getting nodes with text " + n.content['@text'])
     device = Device("")
     while True:
         crt_page = Page(0)
@@ -117,7 +128,8 @@ if __name__ == "__main__":
         crt_page_cluster = identifier.get_page_cluster_pointer(crt_page)
         idx = identifier.get_page_cluster_index_from_page(crt_page)
         print(idx)
-
+        with open("./tmp.json", 'w') as f:
+            f.write(device.dump_layout())
         node_list = identifier.get_the_same_node(page_1, interested_node, crt_page)
         for n in node_list:
             logging.info("getting nodes with text " + n.content['@text'])

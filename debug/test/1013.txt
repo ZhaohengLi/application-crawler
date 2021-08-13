@@ -1,0 +1,2 @@
+O= 4 com.tencent.mm android.widget.TextView com.tencent.mm:id/ala [761,644][838,740] 2"   clickable=0 scrollable=0 editable=0 visible=1
+

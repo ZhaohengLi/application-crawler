@@ -1,0 +1,2 @@
+O= 3 com.tencent.mm android.widget.EditText com.tencent.mm:id/dbc [289,290][926,441] 10 10 clickable=1 scrollable=0 editable=1 visible=1
+

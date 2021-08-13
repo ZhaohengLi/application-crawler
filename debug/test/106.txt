@@ -1,0 +1,9 @@
+O= 6 com.tencent.mm android.widget.RelativeLayout com.tencent.mm:id/db5 [43,1000][1037,1151] null null clickable=1 scrollable=0 editable=0 visible=1
+	O= 1 com.tencent.mm android.widget.TextView com.tencent.mm:id/db_ [86,1044][270,1106] 红包封面 null clickable=0 scrollable=0 editable=0 visible=1
+	O= 2 com.tencent.mm android.widget.FrameLayout null [292,1000][1037,1151] null null clickable=0 scrollable=0 editable=0 visible=1
+		O= 1 com.tencent.mm android.widget.ImageView com.tencent.mm:id/db4 [292,1000][1037,1151] null null clickable=0 scrollable=0 editable=0 visible=1
+		O= 2 com.tencent.mm android.widget.ImageView com.tencent.mm:id/db6 [292,1000][1037,1151] null null clickable=0 scrollable=0 editable=0 visible=1
+	O= 4 com.tencent.mm android.widget.LinearLayout null [954,1044][1037,1106] null null clickable=0 scrollable=0 editable=0 visible=1
+		O= 1 com.tencent.mm android.widget.TextView com.tencent.mm:id/dba [954,1044][954,1106] null null clickable=0 scrollable=0 editable=0 visible=0
+		O= 3 com.tencent.mm android.widget.ImageView com.tencent.mm:id/db3 [976,1056][994,1094] null null clickable=0 scrollable=0 editable=0 visible=1
+

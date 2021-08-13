@@ -1,0 +1,15 @@
+O= 22 com.tencent.mm android.widget.LinearLayout com.tencent.mm:id/bg1 [0,1699][1080,1893] null null clickable=1 scrollable=0 editable=0 visible=1
+	O= 1 com.tencent.mm android.widget.RelativeLayout null [43,1720][194,1871] null null clickable=0 scrollable=0 editable=0 visible=1
+		O= 1 com.tencent.mm android.widget.ImageView com.tencent.mm:id/x1 [43,1730][173,1860] null null clickable=0 scrollable=0 editable=0 visible=1
+		O= 3 com.tencent.mm android.widget.ImageView com.tencent.mm:id/x9 [156,1723][183,1750] null null clickable=0 scrollable=0 editable=0 visible=1
+	O= 2 com.tencent.mm android.widget.LinearLayout null [205,1699][1080,1893] null null clickable=0 scrollable=0 editable=0 visible=1
+		O= 1 com.tencent.mm android.widget.LinearLayout com.tencent.mm:id/ikd [205,1736][1037,1798] null null clickable=0 scrollable=0 editable=0 visible=1
+			O= 1 com.tencent.mm android.widget.LinearLayout null [205,1736][861,1798] null null clickable=0 scrollable=0 editable=0 visible=1
+				O= 1 com.tencent.mm android.view.View com.tencent.mm:id/fzg [205,1736][861,1798] 亚瑟王粉丝2群 null clickable=0 scrollable=0 editable=0 visible=1
+			O= 2 com.tencent.mm android.view.View com.tencent.mm:id/j0l [861,1736][1037,1776] 下午1:59 null clickable=0 scrollable=0 editable=0 visible=1
+		O= 2 com.tencent.mm android.widget.LinearLayout null [205,1798][1037,1857] null null clickable=0 scrollable=0 editable=0 visible=1
+			O= 1 com.tencent.mm android.widget.LinearLayout null [205,1804][875,1851] null null clickable=0 scrollable=0 editable=0 visible=1
+				O= 2 com.tencent.mm android.view.View com.tencent.mm:id/e7t [205,1804][875,1851] [8条] 一堆si掉的: 夹子哥谁 null clickable=0 scrollable=0 editable=0 visible=1
+			O= 2 com.tencent.mm android.widget.LinearLayout null [875,1798][1037,1857] null null clickable=0 scrollable=0 editable=0 visible=1
+				O= 1 com.tencent.mm android.widget.ImageView com.tencent.mm:id/dwf [994,1806][1037,1849] null null clickable=0 scrollable=0 editable=0 visible=1
+

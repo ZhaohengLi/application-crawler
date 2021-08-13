@@ -1,0 +1,9 @@
+O= 2 com.tencent.mm android.widget.LinearLayout null [291,1512][539,1755] null null clickable=1 scrollable=0 editable=0 visible=1
+	O= 1 com.tencent.mm android.widget.FrameLayout null [304,1512][525,1755] null null clickable=0 scrollable=0 editable=0 visible=1
+		O= 2 com.tencent.mm android.widget.LinearLayout null [304,1512][525,1512] null null clickable=0 scrollable=0 editable=0 visible=0
+		O= 1 com.tencent.mm android.widget.LinearLayout null [304,1512][525,1755] null null clickable=0 scrollable=0 editable=0 visible=1
+			O= 1 com.tencent.mm android.widget.RelativeLayout null [339,1531][490,1682] null null clickable=0 scrollable=0 editable=0 visible=1
+				O= 1 com.tencent.mm android.widget.ImageView com.tencent.mm:id/pa [339,1531][490,1682] null null clickable=0 scrollable=0 editable=0 visible=1
+				O= 2 com.tencent.mm android.widget.ImageView com.tencent.mm:id/p_ [339,1531][490,1682] null null clickable=0 scrollable=0 editable=0 visible=1
+			O= 2 com.tencent.mm android.widget.TextView com.tencent.mm:id/pb [366,1693][462,1736] 群直播 null clickable=0 scrollable=0 editable=0 visible=1
+

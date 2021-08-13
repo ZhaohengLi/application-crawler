@@ -1,0 +1,13 @@
+O= 20 com.tencent.mm android.widget.LinearLayout com.tencent.mm:id/bg1 [0,1311][1080,1505] null null clickable=1 scrollable=0 editable=0 visible=1
+	O= 1 com.tencent.mm android.widget.RelativeLayout null [43,1332][194,1483] null null clickable=0 scrollable=0 editable=0 visible=1
+		O= 1 com.tencent.mm android.widget.ImageView com.tencent.mm:id/x1 [43,1342][173,1472] null null clickable=0 scrollable=0 editable=0 visible=1
+	O= 2 com.tencent.mm android.widget.LinearLayout null [205,1311][1080,1505] null null clickable=0 scrollable=0 editable=0 visible=1
+		O= 1 com.tencent.mm android.widget.LinearLayout com.tencent.mm:id/ikd [205,1348][1037,1410] null null clickable=0 scrollable=0 editable=0 visible=1
+			O= 1 com.tencent.mm android.widget.LinearLayout null [205,1348][861,1410] null null clickable=0 scrollable=0 editable=0 visible=1
+				O= 1 com.tencent.mm android.view.View com.tencent.mm:id/fzg [205,1348][861,1410] 潘立航学长 null clickable=0 scrollable=0 editable=0 visible=1
+			O= 2 com.tencent.mm android.view.View com.tencent.mm:id/j0l [861,1348][1037,1388] 下午2:06 null clickable=0 scrollable=0 editable=0 visible=1
+		O= 2 com.tencent.mm android.widget.LinearLayout null [205,1410][1037,1469] null null clickable=0 scrollable=0 editable=0 visible=1
+			O= 1 com.tencent.mm android.widget.LinearLayout null [205,1416][875,1463] null null clickable=0 scrollable=0 editable=0 visible=1
+				O= 2 com.tencent.mm android.view.View com.tencent.mm:id/e7t [205,1416][875,1463] 应该有那种性能统计工具 null clickable=0 scrollable=0 editable=0 visible=1
+			O= 2 com.tencent.mm android.widget.LinearLayout null [875,1410][1037,1469] null null clickable=0 scrollable=0 editable=0 visible=1
+

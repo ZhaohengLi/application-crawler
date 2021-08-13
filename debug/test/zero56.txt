@@ -1,0 +1,2 @@
+O= 1 com.tencent.mm android.view.View com.tencent.mm:id/fzg [205,1930][861,1992] 麦当劳 null clickable=0 scrollable=0 editable=0 visible=1
+

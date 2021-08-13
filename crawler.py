@@ -34,7 +34,7 @@ class Crawler:
         guide_origin_page = guide_path.get_origin_page()
         current_page = Page(0)
         current_page.load_from_device(self.device)
-        
+
         if not self.identifier_instance.is_the_same_page(guide_origin_page, current_page):
             logging.error("Origin page is not the same.")
             return False
@@ -42,8 +42,13 @@ class Crawler:
         for action in guide_path.action_list:
             # todo
             # 先找节点，看看节点是否已经包含
+            with open("./tmp.json", 'w') as f:
+                f.write(self.device.dump_layout())
             action_node = action.action_node
+            t0 = time.clock()
             result_nodes = self.identifier_instance.get_the_same_node(page_a=action.src_page, node_a=action_node, page_b=current_page)
+            t1 = time.clock()
+            print("Total running time: %s s" % (str(t1 - t0)))
             if result_nodes is None or len(result_nodes) == 0:
                 logging.error("Node not found! Action content: {}".format(json.dumps(action.dump())))
                 return False

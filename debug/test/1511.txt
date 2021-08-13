@@ -1,0 +1,2 @@
+O= 3 com.tencent.mm android.widget.TextView com.tencent.mm:id/bkc [875,1529][1036,1581] kylielee null clickable=0 scrollable=0 editable=0 visible=1
+

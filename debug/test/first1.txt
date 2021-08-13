@@ -1,0 +1,5 @@
+O= 7 com.tencent.mm android.widget.LinearLayout com.tencent.mm:id/a29 [0,211][1080,341] null null clickable=1 scrollable=0 editable=0 visible=1
+	O= 1 com.tencent.mm android.widget.LinearLayout com.tencent.mm:id/a24 [0,211][1080,341] null null clickable=0 scrollable=0 editable=0 visible=1
+		O= 1 com.tencent.mm android.widget.ImageView com.tencent.mm:id/a26 [76,243][141,308] null null clickable=0 scrollable=0 editable=0 visible=1
+		O= 2 com.tencent.mm android.widget.TextView com.tencent.mm:id/a2_ [206,211][1080,340] Mac 微信已登录  null clickable=0 scrollable=0 editable=0 visible=1
+

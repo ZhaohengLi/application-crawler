@@ -1,0 +1,2 @@
+O= 10 com.tencent.mm android.widget.Button com.tencent.mm:id/f3c [291,1182][788,1290] 塞钱进红包 null clickable=1 scrollable=0 editable=0 visible=1
+

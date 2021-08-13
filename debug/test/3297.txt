@@ -1,0 +1,14 @@
+O= 2 com.tencent.mm android.support.v7.widget.RecyclerView com.tencent.mm:id/bk9 [0,1485][1080,2208] null null clickable=0 scrollable=0 editable=0 visible=1
+	O= 1 com.tencent.mm android.support.v7.widget.RecyclerView com.tencent.mm:id/bk5 [0,1485][1080,2208] null null clickable=0 scrollable=0 editable=0 visible=1
+		O= 1 com.tencent.mm android.widget.LinearLayout null [44,1507][1036,1603] null null clickable=1 scrollable=0 editable=0 visible=1
+			O= 2 com.tencent.mm android.widget.LinearLayout com.tencent.mm:id/bkd [1036,1529][1036,1529] null null clickable=1 scrollable=0 editable=0 visible=0
+			O= 1 com.tencent.mm android.widget.TextView com.tencent.mm:id/bkg [44,1529][1036,1581] 添加的单个表情 null clickable=0 scrollable=0 editable=0 visible=1
+		O= 2 com.tencent.mm android.widget.RelativeLayout com.tencent.mm:id/rx [28,1614][233,1808] null null clickable=1 scrollable=0 editable=0 visible=1
+			O= 1 com.tencent.mm com.tencent.mm.ui.MMImageView com.tencent.mm:id/rv [33,1614][227,1808] null 表情管理 clickable=0 scrollable=0 editable=0 visible=1
+		O= 3 com.tencent.mm android.view.ViewGroup com.tencent.mm:id/rx [233,1614][438,1808] null null clickable=1 scrollable=0 editable=0 visible=1
+			O= 1 com.tencent.mm com.tencent.mm.ui.MMImageView com.tencent.mm:id/rv [239,1614][433,1808] null null clickable=0 scrollable=0 editable=0 visible=1
+		O= 4 com.tencent.mm android.view.ViewGroup com.tencent.mm:id/rx [438,1614][643,1808] null null clickable=1 scrollable=0 editable=0 visible=1
+			O= 1 com.tencent.mm com.tencent.mm.ui.MMImageView com.tencent.mm:id/rv [444,1614][638,1808] null null clickable=0 scrollable=0 editable=0 visible=1
+		O= 5 com.tencent.mm android.view.ViewGroup com.tencent.mm:id/rx [643,1614][847,1808] null null clickable=1 scrollable=0 editable=0 visible=1
+			O= 1 com.tencent.mm com.tencent.mm.ui.MMImageView com.tencent.mm:id/rv [648,1614][842,1808] null null clickable=0 scrollable=0 editable=0 visible=1
+

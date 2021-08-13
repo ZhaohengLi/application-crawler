@@ -90,7 +90,7 @@ class Page:
         return self.content
 
     def is_empty(self) -> bool:
-        return bool(self.content)
+        return not bool(self.content)
     
     def get_node_by_id(self, raw_id: str):
         if raw_id in self.id_to_node_cache:

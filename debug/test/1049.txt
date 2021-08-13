@@ -1,0 +1,6 @@
+O= 4 com.tencent.mm android.widget.RelativeLayout null [810,2057][1080,2208] null null clickable=1 scrollable=0 editable=0 visible=1
+	O= 1 com.tencent.mm android.widget.LinearLayout com.tencent.mm:id/cn_ [810,2073][1080,2192] null null clickable=0 scrollable=0 editable=0 visible=1
+		O= 1 com.tencent.mm android.widget.RelativeLayout null [810,2073][1080,2149] null null clickable=0 scrollable=0 editable=0 visible=1
+			O= 1 com.tencent.mm android.widget.ImageView com.tencent.mm:id/cnh [907,2073][983,2149] null null clickable=0 scrollable=0 editable=0 visible=1
+		O= 2 com.tencent.mm android.widget.TextView com.tencent.mm:id/cns [929,2149][961,2192] 我 null clickable=0 scrollable=0 editable=0 visible=1
+

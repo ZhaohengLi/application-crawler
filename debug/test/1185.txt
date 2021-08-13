@@ -1,0 +1,14 @@
+O= 4 com.tencent.mm android.widget.RelativeLayout null [0,928][1080,1140] null null clickable=0 scrollable=0 editable=0 visible=1
+	O= 5 com.tencent.mm android.widget.LinearLayout com.tencent.mm:id/al9 [0,928][1080,1140] null null clickable=0 scrollable=0 editable=0 visible=1
+		O= 2 com.tencent.mm android.widget.LinearLayout null [0,928][1080,1140] null null clickable=0 scrollable=0 editable=0 visible=1
+			O= 1 com.tencent.mm android.view.View null [16,928][700,928] null null clickable=0 scrollable=0 editable=0 visible=0
+			O= 2 com.tencent.mm android.widget.LinearLayout null [716,944][924,1124] null null clickable=0 scrollable=0 editable=0 visible=1
+				O= 1 com.tencent.mm android.widget.LinearLayout null [716,944][924,1124] null null clickable=0 scrollable=0 editable=0 visible=1
+					O= 4 com.tencent.mm android.widget.LinearLayout null [716,944][924,1124] null null clickable=0 scrollable=0 editable=0 visible=1
+						O= 1 com.tencent.mm android.widget.FrameLayout com.tencent.mm:id/alb [730,944][910,1124] null 表情1 clickable=1 scrollable=0 editable=0 visible=1
+							O= 3 com.tencent.mm android.widget.ImageView null [730,944][910,1124] null null clickable=0 scrollable=0 editable=0 visible=1
+			O= 3 com.tencent.mm android.widget.RelativeLayout com.tencent.mm:id/akx [924,928][1064,1068] null null clickable=0 scrollable=0 editable=0 visible=1
+				O= 1 com.tencent.mm android.widget.ImageView com.tencent.mm:id/aku [924,928][1064,1068] null g头像 clickable=1 scrollable=0 editable=0 visible=1
+				O= 3 com.tencent.mm android.view.View null [924,928][1064,1068] null null clickable=0 scrollable=0 editable=0 visible=1
+				O= 4 com.tencent.mm android.widget.ImageView null [924,928][1064,1068] null null clickable=0 scrollable=0 editable=0 visible=1
+

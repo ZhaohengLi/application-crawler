@@ -1,0 +1,14 @@
+O= 17 com.tencent.mm android.widget.LinearLayout com.tencent.mm:id/bg1 [0,729][1080,923] null null clickable=1 scrollable=0 editable=0 visible=1
+	O= 1 com.tencent.mm android.widget.RelativeLayout null [43,750][194,901] null null clickable=0 scrollable=0 editable=0 visible=1
+		O= 1 com.tencent.mm android.widget.ImageView com.tencent.mm:id/x1 [43,760][173,890] null null clickable=0 scrollable=0 editable=0 visible=1
+	O= 2 com.tencent.mm android.widget.LinearLayout null [205,729][1080,923] null null clickable=0 scrollable=0 editable=0 visible=1
+		O= 1 com.tencent.mm android.widget.LinearLayout com.tencent.mm:id/ikd [205,766][1037,828] null null clickable=0 scrollable=0 editable=0 visible=1
+			O= 1 com.tencent.mm android.widget.LinearLayout null [205,766][861,828] null null clickable=0 scrollable=0 editable=0 visible=1
+				O= 1 com.tencent.mm android.view.View com.tencent.mm:id/fzg [205,766][861,828] 相约酒捌 - 计八年级大群 null clickable=0 scrollable=0 editable=0 visible=1
+			O= 2 com.tencent.mm android.view.View com.tencent.mm:id/j0l [861,766][1037,806] 下午2:08 null clickable=0 scrollable=0 editable=0 visible=1
+		O= 2 com.tencent.mm android.widget.LinearLayout null [205,828][1037,887] null null clickable=0 scrollable=0 editable=0 visible=1
+			O= 1 com.tencent.mm android.widget.LinearLayout null [205,834][875,881] null null clickable=0 scrollable=0 editable=0 visible=1
+				O= 2 com.tencent.mm android.view.View com.tencent.mm:id/e7t [205,834][875,881] 刘一芃 计84: 先去校医院开转诊单，一般… null clickable=0 scrollable=0 editable=0 visible=1
+			O= 2 com.tencent.mm android.widget.LinearLayout null [875,828][1037,887] null null clickable=0 scrollable=0 editable=0 visible=1
+				O= 1 com.tencent.mm android.widget.ImageView com.tencent.mm:id/dwf [994,836][1037,879] null null clickable=0 scrollable=0 editable=0 visible=1
+

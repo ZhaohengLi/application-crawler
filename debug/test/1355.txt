@@ -1,0 +1,2 @@
+O= 2 com.tencent.mm android.widget.TextView com.tencent.mm:id/aoc [464,560][567,606] qiqi-ice null clickable=0 scrollable=0 editable=0 visible=1
+

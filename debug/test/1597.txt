@@ -1,0 +1,2 @@
+O= 3 com.tencent.mm android.widget.Button com.tencent.mm:id/grk [130,2078][842,2186] 按住 说话 按住说话 clickable=1 scrollable=0 editable=0 visible=1
+

@@ -1,0 +1,2 @@
+O= 1 com.tencent.mm android.widget.TextView com.tencent.mm:id/g1b [108,202][173,254] qaq null clickable=0 scrollable=0 editable=0 visible=1
+

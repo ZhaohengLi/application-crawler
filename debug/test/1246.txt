@@ -1,0 +1,11 @@
+O= 4 com.tencent.mm android.widget.FrameLayout com.tencent.mm:id/al7 [287,463][924,696] null null clickable=1 scrollable=0 editable=0 visible=1
+	O= 2 com.tencent.mm android.widget.ImageView com.tencent.mm:id/ald [287,463][924,696] null null clickable=0 scrollable=0 editable=0 visible=1
+	O= 1 com.tencent.mm android.widget.LinearLayout null [287,463][924,696] null null clickable=0 scrollable=0 editable=0 visible=1
+		O= 1 com.tencent.mm android.widget.LinearLayout null [288,464][923,613] null null clickable=0 scrollable=0 editable=0 visible=1
+			O= 1 com.tencent.mm android.widget.ImageView com.tencent.mm:id/akv [315,491][437,613] null null clickable=0 scrollable=0 editable=0 visible=1
+			O= 2 com.tencent.mm android.widget.LinearLayout null [464,498][877,606] null null clickable=0 scrollable=0 editable=0 visible=1
+				O= 1 com.tencent.mm android.widget.TextView com.tencent.mm:id/anf [464,498][646,560] Gigi 邹琪 null clickable=0 scrollable=0 editable=0 visible=1
+				O= 2 com.tencent.mm android.widget.TextView com.tencent.mm:id/aoc [464,560][567,606] qiqi-ice null clickable=0 scrollable=0 editable=0 visible=1
+		O= 2 com.tencent.mm android.widget.ImageView null [320,640][877,641] null null clickable=0 scrollable=0 editable=0 visible=1
+		O= 3 com.tencent.mm android.widget.TextView com.tencent.mm:id/ao9 [288,641][909,695] 个人名片 null clickable=1 scrollable=0 editable=0 visible=1
+

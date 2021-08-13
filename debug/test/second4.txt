@@ -1,0 +1,14 @@
+O= 18 com.tencent.mm android.widget.LinearLayout com.tencent.mm:id/bg1 [0,923][1080,1117] null null clickable=1 scrollable=0 editable=0 visible=1
+	O= 1 com.tencent.mm android.widget.RelativeLayout null [43,944][194,1095] null null clickable=0 scrollable=0 editable=0 visible=1
+		O= 1 com.tencent.mm android.widget.ImageView com.tencent.mm:id/x1 [43,954][173,1084] null null clickable=0 scrollable=0 editable=0 visible=1
+	O= 2 com.tencent.mm android.widget.LinearLayout null [205,923][1080,1117] null null clickable=0 scrollable=0 editable=0 visible=1
+		O= 1 com.tencent.mm android.widget.LinearLayout com.tencent.mm:id/ikd [205,960][1037,1022] null null clickable=0 scrollable=0 editable=0 visible=1
+			O= 1 com.tencent.mm android.widget.LinearLayout null [205,960][861,1022] null null clickable=0 scrollable=0 editable=0 visible=1
+				O= 1 com.tencent.mm android.view.View com.tencent.mm:id/fzg [205,960][861,1022] 21暑期实践-计算机 null clickable=0 scrollable=0 editable=0 visible=1
+			O= 2 com.tencent.mm android.view.View com.tencent.mm:id/j0l [861,960][1037,1000] 下午2:08 null clickable=0 scrollable=0 editable=0 visible=1
+		O= 2 com.tencent.mm android.widget.LinearLayout null [205,1022][1037,1081] null null clickable=0 scrollable=0 editable=0 visible=1
+			O= 1 com.tencent.mm android.widget.LinearLayout null [205,1028][875,1075] null null clickable=0 scrollable=0 editable=0 visible=1
+				O= 2 com.tencent.mm android.view.View com.tencent.mm:id/e7t [205,1028][875,1075] "美71 朱沅泠"邀请"宋宋👋🏻"加入了群聊 null clickable=0 scrollable=0 editable=0 visible=1
+			O= 2 com.tencent.mm android.widget.LinearLayout null [875,1022][1037,1081] null null clickable=0 scrollable=0 editable=0 visible=1
+				O= 1 com.tencent.mm android.widget.ImageView com.tencent.mm:id/dwf [994,1030][1037,1073] null null clickable=0 scrollable=0 editable=0 visible=1
+

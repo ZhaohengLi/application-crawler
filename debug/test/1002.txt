@@ -1,0 +1,2 @@
+O= 1 com.tencent.mm android.widget.ImageView com.tencent.mm:id/cj [972,136][1080,266] null 聊天信息 clickable=1 scrollable=0 editable=0 visible=1
+

@@ -1,0 +1,3 @@
+O= 1 com.tencent.mm android.widget.FrameLayout com.tencent.mm:id/alb [505,284][910,662] null 表情 clickable=1 scrollable=0 editable=0 visible=1
+	O= 3 com.tencent.mm android.widget.ImageView null [505,284][910,662] null null clickable=0 scrollable=0 editable=0 visible=1
+

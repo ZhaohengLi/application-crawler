@@ -1,0 +1,9 @@
+O= 6 com.tencent.mm android.widget.LinearLayout null [291,1789][539,2032] null null clickable=1 scrollable=0 editable=0 visible=1
+	O= 1 com.tencent.mm android.widget.FrameLayout null [304,1789][525,2032] null null clickable=0 scrollable=0 editable=0 visible=1
+		O= 2 com.tencent.mm android.widget.LinearLayout null [304,1789][525,1789] null null clickable=0 scrollable=0 editable=0 visible=0
+		O= 1 com.tencent.mm android.widget.LinearLayout null [304,1789][525,2032] null null clickable=0 scrollable=0 editable=0 visible=1
+			O= 1 com.tencent.mm android.widget.RelativeLayout null [339,1808][490,1959] null null clickable=0 scrollable=0 editable=0 visible=1
+				O= 1 com.tencent.mm android.widget.ImageView com.tencent.mm:id/pa [339,1808][490,1959] null null clickable=0 scrollable=0 editable=0 visible=1
+				O= 2 com.tencent.mm android.widget.ImageView com.tencent.mm:id/p_ [339,1808][490,1959] null null clickable=0 scrollable=0 editable=0 visible=1
+			O= 2 com.tencent.mm android.widget.TextView com.tencent.mm:id/pb [350,1970][478,2013] 语音输入 null clickable=0 scrollable=0 editable=0 visible=1
+

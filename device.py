@@ -64,7 +64,7 @@ class Device:
         if len(split_res) != 2 or split_res[0] != "RES-CLICK":
             logging.warning('Invalid response {}'.format(msg))
             return False
-        if split_res[1] != "Success":
+        if split_res[1] != "Success\n":
             logging.warning('Click failed {}'.format(msg))
             return False
         return True
@@ -77,7 +77,7 @@ class Device:
         if len(split_res) != 2 or split_res[0] != "RES-CLEAR_TEXT":
             logging.warning('Invalid response {}'.format(msg))
             return False
-        if split_res[1] != "Success":
+        if split_res[1] != "Success\n":
             logging.warning('Clear text failed {}'.format(msg))
             return False
         return True
@@ -92,7 +92,7 @@ class Device:
         if len(split_res) != 2 or split_res[0] != "RES-ENTER_TEXT":
             logging.warning('Invalid response {}'.format(msg))
             return False
-        if split_res[1] != "Success":
+        if split_res[1] != "Success\n":
             logging.warning('Clear text failed {}'.format(msg))
             return False
         return True

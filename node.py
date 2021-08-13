@@ -12,6 +12,8 @@ class Node:
     def write(self, parent, content: dict) -> None:
         self.content = content
         self.parent = parent
+        if '@class' not in self.content.keys():
+            self.content['@class'] = ""
         if self.parent is not None:
             self.absolute_id = self.parent.absolute_id + '|' + str(self.content['@index']) + ';' + self.content['@class']
         else:

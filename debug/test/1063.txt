@@ -1,0 +1,2 @@
+O= 2 com.tencent.mm android.widget.TextView com.tencent.mm:id/pb [382,1688][446,1731] 拍摄 null clickable=0 scrollable=0 editable=0 visible=1
+

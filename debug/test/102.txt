@@ -1,0 +1,3 @@
+O= 2 com.tencent.mm android.widget.RelativeLayout com.tencent.mm:id/g62 [0,1506][1080,1587] null null clickable=1 scrollable=0 editable=0 visible=1
+	O= 1 com.tencent.mm android.widget.ImageView null [522,1537][557,1555] null 收起键盘 clickable=0 scrollable=0 editable=0 visible=1
+

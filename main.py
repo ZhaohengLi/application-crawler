@@ -4,13 +4,13 @@ from config import CRAWLER_LOG_FILE_PATH
 from crawler import Crawler
 from device import Device
 from path import Path
-
+import os
 package = "com.tencent.mm"
 root_activity = "com.tencent.mm.ui.LauncherUI"
-guide_directory = ""
+guide_directory = os.path.abspath("./data/wechat_red_packet2")
 device_serial = ""
-strings_path = "" # os.path.abspath("./strings/wechat_strings.txt")
-cluster_dir = "" # os.path.abspath("./data/wechat001")
+strings_path =  os.path.abspath("./strings/wechat_strings.txt")
+cluster_dir =  os.path.abspath("./data/wechat001")
 
 logging.basicConfig(level=logging.DEBUG,
                     filename=CRAWLER_LOG_FILE_PATH,

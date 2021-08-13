@@ -1,0 +1,37 @@
+O= 1 com.tencent.mm android.widget.ScrollView com.tencent.mm:id/dey [0,266][1080,1505] null null clickable=0 scrollable=1 editable=0 visible=1
+	O= 1 com.tencent.mm android.widget.LinearLayout null [0,266][1080,1505] null null clickable=0 scrollable=0 editable=0 visible=1
+		O= 0 com.tencent.mm android.widget.LinearLayout null [0,266][0,266] null null clickable=0 scrollable=0 editable=0 visible=0
+		O= 3 com.tencent.mm android.widget.LinearLayout null [0,266][1080,1505] null null clickable=0 scrollable=0 editable=0 visible=1
+			O= 1 com.tencent.mm android.widget.LinearLayout com.tencent.mm:id/d9s [43,290][1037,441] null null clickable=0 scrollable=0 editable=0 visible=1
+				O= 1 com.tencent.mm android.widget.LinearLayout null [43,290][1037,441] null null clickable=0 scrollable=0 editable=0 visible=1
+					O= 1 com.tencent.mm android.widget.ImageView com.tencent.mm:id/dc2 [86,338][140,392] null null clickable=0 scrollable=0 editable=0 visible=1
+					O= 2 com.tencent.mm android.widget.TextView com.tencent.mm:id/dc3 [151,334][289,396] 总金额 null clickable=0 scrollable=0 editable=0 visible=1
+					O= 3 com.tencent.mm android.widget.EditText com.tencent.mm:id/dbc [289,290][926,441] 10 10 clickable=1 scrollable=0 editable=1 visible=1
+					O= 4 com.tencent.mm android.widget.TextView com.tencent.mm:id/d9t [948,334][994,396] 元 null clickable=1 scrollable=0 editable=0 visible=1
+			O= 2 com.tencent.mm android.widget.TextView com.tencent.mm:id/ddm [43,452][566,498] 当前为拼手气红包，改为普通红包 null clickable=1 scrollable=0 editable=0 visible=1
+			O= 3 com.tencent.mm android.widget.LinearLayout com.tencent.mm:id/ddj [43,536][1037,687] null null clickable=0 scrollable=0 editable=0 visible=1
+				O= 1 com.tencent.mm android.widget.LinearLayout null [43,536][1037,687] null null clickable=0 scrollable=0 editable=0 visible=1
+					O= 1 com.tencent.mm android.widget.TextView com.tencent.mm:id/ddk [86,536][270,687] 红包个数 null clickable=0 scrollable=0 editable=0 visible=1
+					O= 2 com.tencent.mm android.widget.EditText com.tencent.mm:id/dbc [270,536][926,687] 填写个数  clickable=1 scrollable=0 editable=1 visible=1
+					O= 3 com.tencent.mm android.widget.TextView com.tencent.mm:id/ddl [948,580][994,642] 个 null clickable=0 scrollable=0 editable=0 visible=1
+			O= 4 com.tencent.mm android.widget.TextView com.tencent.mm:id/ddu [43,698][1037,736] 本群共4人 null clickable=0 scrollable=0 editable=0 visible=1
+			O= 5 com.tencent.mm android.widget.LinearLayout com.tencent.mm:id/dfd [43,771][1037,965] null null clickable=0 scrollable=0 editable=0 visible=1
+				O= 1 com.tencent.mm android.widget.LinearLayout null [43,771][1037,965] null null clickable=0 scrollable=0 editable=0 visible=1
+					O= 2 com.tencent.mm android.widget.EditText com.tencent.mm:id/dez [86,771][829,965] 恭喜发财，大吉大利 null clickable=1 scrollable=0 editable=1 visible=1
+					O= 3 com.tencent.mm android.widget.LinearLayout com.tencent.mm:id/dax [872,807][994,929] null null clickable=1 scrollable=0 editable=0 visible=1
+						O= 1 com.tencent.mm android.widget.ImageView com.tencent.mm:id/day [894,829][972,907] null null clickable=0 scrollable=0 editable=0 visible=1
+			O= 6 com.tencent.mm android.widget.RelativeLayout com.tencent.mm:id/db5 [43,1000][1037,1151] null null clickable=1 scrollable=0 editable=0 visible=1
+				O= 1 com.tencent.mm android.widget.TextView com.tencent.mm:id/db_ [86,1044][270,1106] 红包封面 null clickable=0 scrollable=0 editable=0 visible=1
+				O= 2 com.tencent.mm android.widget.FrameLayout null [292,1000][1037,1151] null null clickable=0 scrollable=0 editable=0 visible=1
+					O= 1 com.tencent.mm android.widget.ImageView com.tencent.mm:id/db4 [292,1000][1037,1151] null null clickable=0 scrollable=0 editable=0 visible=1
+					O= 2 com.tencent.mm android.widget.ImageView com.tencent.mm:id/db6 [292,1000][1037,1151] null null clickable=0 scrollable=0 editable=0 visible=1
+				O= 4 com.tencent.mm android.widget.LinearLayout null [954,1044][1037,1106] null null clickable=0 scrollable=0 editable=0 visible=1
+					O= 1 com.tencent.mm android.widget.TextView com.tencent.mm:id/dba [954,1044][954,1106] null null clickable=0 scrollable=0 editable=0 visible=0
+					O= 3 com.tencent.mm android.widget.ImageView com.tencent.mm:id/db3 [976,1056][994,1094] null null clickable=0 scrollable=0 editable=0 visible=1
+			O= 7 com.tencent.mm android.widget.TextView com.tencent.mm:id/de1 [43,1286][1037,1402] ¥10.00 null clickable=0 scrollable=0 editable=0 visible=1
+			O= 8 com.tencent.mm android.widget.Button com.tencent.mm:id/ddo [291,1478][788,1505] 塞钱进红包 null clickable=0 scrollable=0 editable=0 visible=1
+		O= 4 com.tencent.mm android.widget.LinearLayout null [0,1586][1080,1505] null null clickable=0 scrollable=0 editable=0 visible=0
+			O= 2 com.tencent.mm android.widget.LinearLayout com.tencent.mm:id/ddv [0,1613][1080,1505] null null clickable=0 scrollable=0 editable=0 visible=0
+				O= 1 com.tencent.mm android.widget.LinearLayout null [0,1613][1080,1505] null null clickable=0 scrollable=0 editable=0 visible=0
+					O= 2 com.tencent.mm android.widget.TextView com.tencent.mm:id/df2 [215,1613][865,1505] 未领取的红包，将于24小时后发起退款 null clickable=0 scrollable=0 editable=0 visible=0
+

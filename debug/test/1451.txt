@@ -1,0 +1,4 @@
+O= 5 com.tencent.mm android.widget.LinearLayout null [0,266][1080,338] null null clickable=0 scrollable=0 editable=0 visible=1
+	O= 3 com.tencent.mm android.widget.LinearLayout null [0,266][1080,338] null null clickable=0 scrollable=0 editable=0 visible=1
+		O= 1 com.tencent.mm android.view.View com.tencent.mm:id/ala [377,266][703,322] null  clickable=1 scrollable=0 editable=0 visible=1
+

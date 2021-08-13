@@ -1,0 +1,14 @@
+O= 24 com.tencent.mm android.widget.LinearLayout com.tencent.mm:id/bg1 [0,1957][1080,2130] null null clickable=1 scrollable=0 editable=0 visible=1
+	O= 1 com.tencent.mm android.widget.RelativeLayout null [43,1978][194,2129] null null clickable=0 scrollable=0 editable=0 visible=1
+		O= 1 com.tencent.mm android.widget.ImageView com.tencent.mm:id/x1 [43,1988][173,2118] null null clickable=0 scrollable=0 editable=0 visible=1
+	O= 2 com.tencent.mm android.widget.LinearLayout null [205,1957][1080,2130] null null clickable=0 scrollable=0 editable=0 visible=1
+		O= 1 com.tencent.mm android.widget.LinearLayout com.tencent.mm:id/ikd [205,1994][1037,2056] null null clickable=0 scrollable=0 editable=0 visible=1
+			O= 1 com.tencent.mm android.widget.LinearLayout null [205,1994][861,2056] null null clickable=0 scrollable=0 editable=0 visible=1
+				O= 1 com.tencent.mm android.view.View com.tencent.mm:id/fzg [205,1994][861,2056] 蜀影记•清华舞会专享优惠群 null clickable=0 scrollable=0 editable=0 visible=1
+			O= 2 com.tencent.mm android.view.View com.tencent.mm:id/j0l [861,1994][1037,2034] 上午11:15 null clickable=0 scrollable=0 editable=0 visible=1
+		O= 2 com.tencent.mm android.widget.LinearLayout null [205,2056][1037,2115] null null clickable=0 scrollable=0 editable=0 visible=1
+			O= 1 com.tencent.mm android.widget.LinearLayout null [205,2062][875,2109] null null clickable=0 scrollable=0 editable=0 visible=1
+				O= 2 com.tencent.mm android.view.View com.tencent.mm:id/e7t [205,2062][875,2109] 蜀影记: 都已上线 null clickable=0 scrollable=0 editable=0 visible=1
+			O= 2 com.tencent.mm android.widget.LinearLayout null [875,2056][1037,2115] null null clickable=0 scrollable=0 editable=0 visible=1
+				O= 1 com.tencent.mm android.widget.ImageView com.tencent.mm:id/dwf [994,2064][1037,2107] null null clickable=0 scrollable=0 editable=0 visible=1
+

@@ -1,0 +1,4 @@
+O= 1 com.tencent.mm android.view.ViewGroup null [108,342][259,493] null 关闭 clickable=1 scrollable=0 editable=0 visible=1
+	O= 1 com.tencent.mm android.view.ViewGroup null [157,391][211,445] null null clickable=0 scrollable=0 editable=0 visible=1
+		O= 1 com.tencent.mm com.tencent.mm.ui.MMImageView null [157,391][211,445] null null clickable=0 scrollable=0 editable=0 visible=1
+

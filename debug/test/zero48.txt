@@ -1,0 +1,2 @@
+O= 1 com.tencent.mm android.view.View com.tencent.mm:id/fzg [205,1154][861,1216] THU八字班出国群 null clickable=0 scrollable=0 editable=0 visible=1
+

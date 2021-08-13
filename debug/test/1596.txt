@@ -1,0 +1,2 @@
+O= 1 com.tencent.mm android.widget.ImageButton com.tencent.mm:id/anc [22,2090][108,2176] null 切换到键盘 clickable=1 scrollable=0 editable=0 visible=1
+

@@ -1,0 +1,2 @@
+O= 2 com.tencent.mm android.view.View com.tencent.mm:id/j0l [861,1542][1037,1582] 下午2:01 null clickable=0 scrollable=0 editable=0 visible=1
+

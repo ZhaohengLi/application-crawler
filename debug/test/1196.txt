@@ -1,0 +1,12 @@
+O= 2 com.tencent.mm android.widget.FrameLayout com.tencent.mm:id/al7 [276,1631][924,2023] null null clickable=1 scrollable=0 editable=0 visible=1
+	O= 2 com.tencent.mm android.widget.ImageView com.tencent.mm:id/ald [276,1631][924,2023] null null clickable=0 scrollable=0 editable=0 visible=1
+	O= 1 com.tencent.mm android.widget.LinearLayout null [276,1631][924,2023] null null clickable=0 scrollable=0 editable=0 visible=1
+		O= 1 com.tencent.mm android.widget.FrameLayout null [277,1632][923,1778] null null clickable=0 scrollable=0 editable=0 visible=1
+			O= 1 com.tencent.mm android.widget.LinearLayout com.tencent.mm:id/an8 [277,1632][923,1731] null null clickable=0 scrollable=0 editable=0 visible=1
+				O= 1 com.tencent.mm android.widget.TextView com.tencent.mm:id/an9 [304,1659][896,1717] 位置 null clickable=0 scrollable=0 editable=0 visible=1
+		O= 2 com.tencent.mm android.widget.ImageView null [277,1778][909,1779] null null clickable=0 scrollable=0 editable=0 visible=1
+		O= 3 com.tencent.mm android.widget.FrameLayout null [277,1779][909,2022] null null clickable=0 scrollable=0 editable=0 visible=1
+			O= 1 com.tencent.mm android.widget.ImageView com.tencent.mm:id/an6 [277,1779][909,2022] null null clickable=0 scrollable=0 editable=0 visible=1
+			O= 4 com.tencent.mm android.view.View com.tencent.mm:id/dkl [277,1779][909,2022] null null clickable=0 scrollable=0 editable=0 visible=1
+			O= 3 com.tencent.mm android.widget.ProgressBar com.tencent.mm:id/an4 [571,1879][614,1922] null null clickable=0 scrollable=0 editable=0 visible=1
+

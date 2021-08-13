@@ -1,0 +1,2 @@
+O= 8 com.tencent.mm android.widget.Button com.tencent.mm:id/ddo [291,1199][788,1307] 塞钱进红包 null clickable=0 scrollable=0 editable=0 visible=1
+

@@ -1,0 +1,2 @@
+O= 2 com.tencent.mm android.widget.EditText com.tencent.mm:id/dez [86,771][829,965] 恭喜发财，大吉大利 null clickable=1 scrollable=0 editable=1 visible=1
+

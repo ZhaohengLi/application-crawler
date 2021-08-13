@@ -1,0 +1,6 @@
+O= 1 com.tencent.mm android.widget.LinearLayout null [44,1507][1036,1605] null null clickable=1 scrollable=0 editable=0 visible=1
+	O= 1 com.tencent.mm android.widget.TextView com.tencent.mm:id/bkg [44,1529][810,1581] mini言 null clickable=0 scrollable=0 editable=0 visible=1
+	O= 2 com.tencent.mm android.widget.LinearLayout com.tencent.mm:id/bkd [810,1529][1036,1583] null null clickable=1 scrollable=0 editable=0 visible=1
+		O= 2 com.tencent.mm android.widget.ImageView com.tencent.mm:id/bke [810,1529][864,1583] null null clickable=0 scrollable=0 editable=0 visible=1
+		O= 3 com.tencent.mm android.widget.TextView com.tencent.mm:id/bkc [875,1529][1036,1581] kylielee null clickable=0 scrollable=0 editable=0 visible=1
+

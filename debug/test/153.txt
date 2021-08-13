@@ -1,0 +1,2 @@
+O= 2 com.tencent.mm android.widget.TextView com.tencent.mm:id/dc3 [86,334][270,396] 单个金额 null clickable=0 scrollable=0 editable=0 visible=1
+

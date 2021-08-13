@@ -1,0 +1,10 @@
+O= 5 com.tencent.mm android.view.ViewGroup null [108,816][972,892] null null clickable=1 scrollable=0 editable=0 visible=1
+	O= 1 com.tencent.mm android.view.ViewGroup null [151,828][303,880] null null clickable=0 scrollable=0 editable=0 visible=1
+		O= 1 com.tencent.mm android.widget.TextView null [151,828][303,880] 支付方式 null clickable=0 scrollable=0 editable=0 visible=1
+	O= 2 com.tencent.mm android.view.ViewGroup null [756,827][929,881] null null clickable=0 scrollable=0 editable=0 visible=1
+		O= 1 com.tencent.mm android.view.ViewGroup null [756,827][810,881] null null clickable=0 scrollable=0 editable=0 visible=1
+			O= 1 com.tencent.mm com.tencent.mm.ui.MMImageView null [756,827][810,881] null null clickable=0 scrollable=0 editable=0 visible=1
+		O= 2 com.tencent.mm android.view.ViewGroup null [823,828][899,880] null null clickable=0 scrollable=0 editable=0 visible=1
+			O= 1 com.tencent.mm android.widget.TextView null [823,828][899,880] 零钱 null clickable=0 scrollable=0 editable=0 visible=1
+		O= 3 com.tencent.mm com.tencent.mm.ui.MMImageView null [916,842][929,865] null null clickable=0 scrollable=0 editable=0 visible=1
+

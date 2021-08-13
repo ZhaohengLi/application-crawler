@@ -1,0 +1,2 @@
+O= 1 com.tencent.mm android.widget.ImageView com.tencent.mm:id/he6 [864,114][929,179] null null clickable=1 scrollable=0 editable=0 visible=1
+

@@ -1,0 +1,5 @@
+O= 1 com.tencent.mm android.widget.LinearLayout null [0,266][1080,467] null null clickable=0 scrollable=0 editable=0 visible=1
+	O= 2 com.tencent.mm android.widget.TextView com.tencent.mm:id/ao5 [441,266][639,331] 昨天 凌晨3:40 null clickable=0 scrollable=0 editable=0 visible=1
+	O= 3 com.tencent.mm android.widget.LinearLayout null [0,363][1080,467] null null clickable=0 scrollable=0 editable=0 visible=1
+		O= 1 com.tencent.mm android.view.View com.tencent.mm:id/ala [280,379][800,451] null  clickable=1 scrollable=0 editable=0 visible=1
+

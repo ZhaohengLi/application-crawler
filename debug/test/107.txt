@@ -1,0 +1,2 @@
+O= 7 com.tencent.mm android.widget.TextView com.tencent.mm:id/de1 [43,1286][1037,1402] ¥10.00 null clickable=0 scrollable=0 editable=0 visible=1
+
